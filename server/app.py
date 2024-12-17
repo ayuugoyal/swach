@@ -131,7 +131,7 @@ class WasteManagementRouter:
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, origins=["https://get-data.vercel.app", "http://localhost:3000"], supports_credentials=True)
+CORS(app, origins=["https://swach.vercel.app", "http://localhost:3000"], supports_credentials=True)
 
 api_key = os.getenv("GOOGLE_API_KEY")
 if not api_key:

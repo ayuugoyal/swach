@@ -229,7 +229,6 @@ export default function Home() {
         return
       }
 
-
       setIsInformed(true)
       setIsInputStage(true)
       setLoading(false)
